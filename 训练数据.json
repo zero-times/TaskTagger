@@ -2,248 +2,248 @@
     
     {
         "tokens": ["零点", "开会"],
-        "labels": ["00:00", "EVENT"]
+        "labels": ["time|00:00", "EVENT"]
     },
     {
         "tokens": ["晚上","12点", "开会"],
-        "labels": ["PM","00:00", "EVENT"]
+        "labels": ["hour|PM","time|00:00", "EVENT"]
     },
     {
         "tokens": ["1点", "睡觉"],
-        "labels": ["01:00", "EVENT"]
+        "labels": ["time|01:00", "EVENT"]
     },
     {
         "tokens": ["2点", "起床"],
-        "labels": ["02:00", "EVENT"]
+        "labels": ["time|02:00", "EVENT"]
     },
     
     {
         "tokens": ["3点", "起床"],
-        "labels": ["03:00", "EVENT"]
+        "labels": ["time|03:00", "EVENT"]
     },
     
     {
         "tokens": ["4点", "起床"],
-        "labels": ["04:00", "EVENT"]
+        "labels": ["time|04:00", "EVENT"]
     },
     
     {
         "tokens": ["5点", "起床"],
-        "labels": ["05:00", "EVENT"]
+        "labels": ["time|05:00", "EVENT"]
     },
     
     {
         "tokens": ["6点", "起床"],
-        "labels": ["02:00", "EVENT"]
+        "labels": ["time|02:00", "EVENT"]
     },
     
     {
         "tokens": ["7点", "起床"],
-        "labels": ["07:00", "EVENT"]
+        "labels": ["time|07:00", "EVENT"]
     },
     
     {
         "tokens": ["8点", "起床"],
-        "labels": ["08:00", "EVENT"]
+        "labels": ["time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["9点", "起床"],
-        "labels": ["09:00", "EVENT"]
+        "labels": ["time|09:00", "EVENT"]
     },
     
     {
         "tokens": ["10点", "起床"],
-        "labels": ["10:00", "EVENT"]
+        "labels": ["time|10:00", "EVENT"]
     },
     
     {
         "tokens": ["11点", "起床"],
-        "labels": ["11:00", "EVENT"]
+        "labels": ["time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["12点", "起床"],
-        "labels": ["12:00", "EVENT"]
+        "labels": ["time|12:00", "EVENT"]
     },
     {
         "tokens": ["一点", "起床"],
-        "labels": ["01:00", "EVENT"]
+        "labels": ["time|01:00", "EVENT"]
     },
     
     {
         "tokens": ["两点", "起床"],
-        "labels": ["02:00", "EVENT"]
+        "labels": ["time|02:00", "EVENT"]
     },
     
     {
         "tokens": ["三点", "起床"],
-        "labels": ["03:00", "EVENT"]
+        "labels": ["time|03:00", "EVENT"]
     },
     {
         "tokens": ["四点", "起床"],
-        "labels": ["04:00", "EVENT"]
+        "labels": ["time|04:00", "EVENT"]
     },
     {
         "tokens": ["上午", "10点", "开会"],
-        "labels": ["AM", "10:00", "EVENT"]
+        "labels": ["hour|AM", "time|10:00", "EVENT"]
     },
     {
         "tokens": ["下午","两点","去图书馆，准备下周的考试"],
-        "labels": ["PM", "02:00", "EVENT"]
+        "labels": ["hour|PM", "time|02:00", "EVENT"]
     },
     {
         "tokens": ["晚上","6点","和家人一起吃晚饭，讨论明天的计划"],
-        "labels": ["PM", "06:00", "EVENT"]
+        "labels": ["hour|PM", "time|06:00", "EVENT"]
     },
     {
         "tokens": ["早上","10点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["AM", "10:00", "EVENT"]
+        "labels": ["hour|AM", "time|10:00", "EVENT"]
     },
     {
         "tokens": ["中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["AM", "12:00", "EVENT"]
+        "labels": ["hour|AM", "time|12:00", "EVENT"]
     },
     {
         "tokens": ["明天","下午","两点","去图书馆，准备下周的考试"],
-        "labels": ["+1","PM", "02:00", "EVENT"]
+        "labels": ["day|+1","hour|PM", "time|02:00", "EVENT"]
     },
     {
         "tokens": ["明天","晚上","6点","和家人一起吃晚饭，讨论明天的计划"],
-        "labels": ["+1","PM", "06:00", "EVENT"]
+        "labels": ["day|+1","hour|PM", "time|06:00", "EVENT"]
     },
     {
         "tokens": ["明天","早上","10点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+1","AM", "10:00", "EVENT"]
+        "labels": ["day|+1","hour|AM", "time|10:00", "EVENT"]
     },
     {
         "tokens": ["明天","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+1","AM", "12:00", "EVENT"]
+        "labels": ["day|+1","hour|AM", "time|12:00", "EVENT"]
     },
     {
         "tokens": ["后天","大后天"],
-        "labels": ["+2","+3"]
+        "labels": ["day|+2","day|+3"]
     },
     {
         "tokens": ["下周一","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww1","AM", "12:00", "EVENT"]
+        "labels": ["+ww1","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周二","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww2","AM", "12:00", "EVENT"]
+        "labels": ["+ww2","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周三","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww3","AM", "12:00", "EVENT"]
+        "labels": ["+ww3","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周四","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww4","AM", "12:00", "EVENT"]
+        "labels": ["+ww4","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周五","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww5","AM", "12:00", "EVENT"]
+        "labels": ["+ww5","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周六","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww6","AM", "12:00", "EVENT"]
+        "labels": ["+ww6","hour|AM", "time|12:00", "EVENT"]
     },
     
     {
         "tokens": ["下周日","中午","12点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww7","AM", "12:00", "EVENT"]
+        "labels": ["+ww7","hour|AM", "time|12:00", "EVENT"]
     },
     {
         "tokens": ["下周四","上午","10点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww4","AM", "10:00", "EVENT"]
+        "labels": ["+ww4","hour|AM", "time|10:00", "EVENT"]
     },
     {
         "tokens": ["下周四","上午","9点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww4","AM", "09:00", "EVENT"]
+        "labels": ["+ww4","hour|AM", "time|09:00", "EVENT"]
     },
     
     {
         "tokens": ["下周四","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww4","AM", "08:00", "EVENT"]
+        "labels": ["+ww4","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["下周四","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["+ww4","AM", "11:00", "EVENT"]
+        "labels": ["+ww4","hour|AM", "time|11:00", "EVENT"]
     },
     {
         "tokens": ["周四","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w4","AM", "08:00", "EVENT"]
+        "labels": ["w4","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周四","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w4","AM", "11:00", "EVENT"]
+        "labels": ["w4","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周五","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w5","AM", "08:00", "EVENT"]
+        "labels": ["w5","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周五","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w5","AM", "11:00", "EVENT"]
+        "labels": ["w5","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周三","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w3","AM", "08:00", "EVENT"]
+        "labels": ["w3","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周三","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w3","AM", "11:00", "EVENT"]
+        "labels": ["w3","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周二","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w2","AM", "08:00", "EVENT"]
+        "labels": ["w2","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周二","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w2","AM", "11:00", "EVENT"]
+        "labels": ["w2","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周一","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w1","AM", "08:00", "EVENT"]
+        "labels": ["w1","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周一","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w1","AM", "11:00", "EVENT"]
+        "labels": ["w1","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周六","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w6","AM", "08:00", "EVENT"]
+        "labels": ["w6","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周六","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w6","AM", "11:00", "EVENT"]
+        "labels": ["w6","hour|AM", "time|11:00", "EVENT"]
     },
     
     {
         "tokens": ["周天","上午","8点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w7","AM", "08:00", "EVENT"]
+        "labels": ["w7","hour|AM", "time|08:00", "EVENT"]
     },
     
     {
         "tokens": ["周日","上午","11点","去健身房锻炼一小时，保持身体健康"],
-        "labels": ["w7","AM", "11:00", "EVENT"]
+        "labels": ["w7","hour|AM", "time|11:00", "EVENT"]
     }
 ]
  
