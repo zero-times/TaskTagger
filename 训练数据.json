@@ -244,6 +244,80 @@
     {
         "tokens": ["周日","上午","11点","去健身房锻炼一小时，保持身体健康"],
         "labels": ["w7","hour|AM", "time|11:00", "EVENT"]
-    }
+    },
+    {
+        "tokens": ["0:00", "开会"],
+        "labels": ["time|00:00", "EVENT"]
+    },
+    {
+        "tokens": ["0:30", "开会"],
+        "labels": ["time|00:30", "EVENT"]
+    },
+    {
+        "tokens": ["晚上","12:00", "开会"],
+        "labels": ["hour|PM","time|12:00", "EVENT"]
+    },
+    {
+        "tokens": ["1:00", "睡觉"],
+        "labels": ["time|01:00", "EVENT"]
+    },
+    {
+        "tokens": ["1:30", "睡觉"],
+        "labels": ["time|01:30", "EVENT"]
+    },
+    {
+        "tokens": ["2:00", "起床"],
+        "labels": ["time|02:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["3:00", "起床"],
+        "labels": ["time|03:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["4:00", "起床"],
+        "labels": ["time|04:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["5:00", "起床"],
+        "labels": ["time|05:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["6:00", "起床"],
+        "labels": ["time|02:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["7:00", "起床"],
+        "labels": ["time|07:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["8:00", "起床"],
+        "labels": ["time|08:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["9:00", "起床"],
+        "labels": ["time|09:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["10:00", "起床"],
+        "labels": ["time|10:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["11:00", "起床"],
+        "labels": ["time|11:00", "EVENT"]
+    },
+    
+    {
+        "tokens": ["12:00", "起床"],
+        "labels": ["time|12:00", "EVENT"]
+    },
 ]
  
